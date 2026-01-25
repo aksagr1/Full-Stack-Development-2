@@ -1,0 +1,15 @@
+{
+  "routes": [
+    { "src": "/EXP1.1": "/EXP1.1/index.html" },
+    { "src": "/EXP1.1/(.*)", "dest": "/EXP1.1/$1" },
+
+    { "src": "/EXP1.2", "dest": "/EXP1.2/index.html" },
+    { "src": "/EXP1.2/(.*)", "dest": "/EXP1.2/$1" },
+
+    { "src": "/EXP1.3", "dest": "/EXP1.2/index.html" },
+    { "src": "/EXP1.2/(.*)", "dest": "/EXP1.2/$1" },
+
+    { "src": "/EXP1.4", "dest": "/EXP1.4/index.html" },
+    { "src": "/EXP1.4/(.*)", "dest": "/EXP1.4/$1" }
+  ]
+}
